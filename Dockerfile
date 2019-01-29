@@ -21,7 +21,7 @@ RUN ln -s /usr/bin/arm-linux-gnueabihf-gcc-7 /usr/bin/arm-linux-gnueabihf-gcc
 # Copying build script
 RUN mkdir /work
 COPY build.sh /
-
+RUN chmod +x /build.sh
 # Setting workdir
 #WORKDIR /work
 
