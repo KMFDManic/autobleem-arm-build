@@ -8,14 +8,14 @@ This docker image is functionnal but it can be better, like automated build when
 
 # How to use it ?
 
-1 - docker pull mggk/autobleem-arm-build
-2 - docker run --name aab -d -t -v LOCAL-PATH-TO-SOURCES:/work/src autobleem-arm-build
-3 - docker exec -t -i aab /bin/bash
-4 - sh build.sh
-5 - Everything is builded in the build_arm folder of your sources !
+1. docker pull mggk/autobleem-arm-build
+2. docker run --name aab -d -t -v LOCAL-PATH-TO-SOURCES:/work/src autobleem-arm-build
+3. docker exec -t -i aab /bin/bash
+4. sh build.sh
+5. Everything is builded in the build_arm folder of your sources !
 
 # Build it by yourself ?
 
-1 - Clone this repo
-2 - docker build -t autobleem-arm-build .
-3 - And Voila !
+1. Clone this repo
+2. docker build -t autobleem-arm-build .
+3. And Voila !
