@@ -7,6 +7,7 @@ This simpple simply docker image is a rtu build env for AutoBleem the Playstatio
 This docker image is functionnal but it can be better, like automated build when running docker like with a docker start command ! Wanto to helo ? Just fork and create PR !
 
 # How to use it ?
+
 1 - docker pull mggk/autobleem-arm-build
 2 - docker run --name aab -d -t -v LOCAL-PATH-TO-SOURCES:/work/src autobleem-arm-build
 3 - docker exec -t -i aab /bin/bash
@@ -14,6 +15,7 @@ This docker image is functionnal but it can be better, like automated build when
 5 - Everything is builded in the build_arm folder of your sources !
 
 # Build it by yourself ?
+
 1 - Clone this repo
 2 - docker build -t autobleem-arm-build .
 3 - And Voila !
